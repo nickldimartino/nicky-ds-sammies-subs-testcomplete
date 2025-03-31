@@ -14,14 +14,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Set up TestComplete/TestExecute
-      run: |
-        # Ensure TestExecute or TestComplete is installed on the runner
-        # This assumes it's already available or pre-installed on a custom runner
-        echo "Verifying TestExecute installation..."
-        TestComplete.exe /?
-
     - name: Run TestComplete Project
       run: |
-        "C:\Program Files (x86)\SmartBear\TestComplete 15\Bin\TestComplete.exe" ^
-          "C:\Users\nicholas.dimartino\AppData\Local\Jenkins\.jenkins\workspace\QMetry - Nicky Ds Sammies and Subs Integrations\ProjectSuite1" /run /exit /SilentMode /ErrorLog
+        & '"C:\Program Files (x86)\SmartBear\TestComplete 15\Bin\TestComplete.exe"' `
+        '"C:\Users\nicholas.dimartino\AppData\Local\Jenkins\.jenkins\workspace\QMetry - Nicky Ds Sammies and Subs Integrations\ProjectSuite1\ProjectSuite1\Nicky Ds Sammies and Subs.pjs"' /run /exit /SilentMode /ErrorLog
