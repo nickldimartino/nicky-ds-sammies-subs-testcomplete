@@ -16,5 +16,5 @@ jobs:
 
     - name: Run TestComplete Project
       run: |
-        & '"C:\Program Files (x86)\SmartBear\TestComplete 15\Bin\TestComplete.exe"' `
-        '"C:\Users\nicholas.dimartino\AppData\Local\Jenkins\.jenkins\workspace\QMetry - Nicky Ds Sammies and Subs Integrations\ProjectSuite1\ProjectSuite1\Nicky Ds Sammies and Subs.pjs"' /run /exit /SilentMode /ErrorLog
+        & "C:\Program Files (x86)\SmartBear\TestComplete 15\Bin\TestComplete.exe" `
+        "C:\Users\nicholas.dimartino\AppData\Local\Jenkins\.jenkins\workspace\QMetry - Nicky Ds Sammies and Subs Integrations\ProjectSuite1\ProjectSuite1\Nicky Ds Sammies and Subs.pjs" /run /exit /SilentMode /ErrorLog
