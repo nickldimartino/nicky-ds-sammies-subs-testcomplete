@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{BA97D374-4C34-433B-90E8-A42452357616}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45744.6138078704" objectName="Aliases.browser.pageReactApp.buttonDelete" objectLeft="726" objectTop="628" objectRight="797" objectBottom="656" clickPointX="771" clickPointY="641" imageFileName="tcvi936623734314240.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45744.6138194444" objectName="Aliases.browser.pageReactApp.buttonDelete" objectLeft="726" objectTop="671" objectRight="797" objectBottom="699" clickPointX="770" clickPointY="680" imageFileName="tcvi936624953314241.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45744.6138310185" objectName="Aliases.browser.pageReactApp.buttonDelete" objectLeft="726" objectTop="695" objectRight="797" objectBottom="723" clickPointX="770" clickPointY="704" imageFileName="tcvi936625718314242.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45744.6138541667" objectName="Aliases.browser.pageReactApp.buttonDelete" objectLeft="915" objectTop="628" objectRight="986" objectBottom="656" clickPointX="946" clickPointY="644" imageFileName="tcvi936627750314244.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45744.6138657407" objectName="Aliases.browser.pageReactApp.buttonDelete" objectLeft="1105" objectTop="652" objectRight="1176" objectBottom="680" clickPointX="1162" clickPointY="664" imageFileName="tcvi936628750314245.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

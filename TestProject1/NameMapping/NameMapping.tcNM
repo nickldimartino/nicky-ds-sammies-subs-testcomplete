@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{EFE90045-4E15-45AC-B4D3-AD852441F524}">
+				<TypeInfo Item0="{B65C142D-3F0E-4C4B-9620-28CF86A59F92}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{5BDCD4C0-AD46-4086-AD8D-0A232236972A}">
+						<TypeInfo Item0="{EEFDAD72-EB3A-4F30-B3AF-C5FB0E2BA808}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageReactApp" Key="{E19BA9AF-5626-4214-9588-846638FF1C21}">
+								<Image FileName="-840574718" Left="9" Top="160" Right="1929" Bottom="1148" />
+								<TypeInfo Item0="{3DCB9E21-463D-4611-9BA0-D1EEC9F1E86C}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://localhost:3000/menu" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeBlt" Key="{031DE202-5889-4200-ADC1-D4E38E5CC5B7}">
+										<Image FileName="-840574718" Left="1182" Top="454" Right="1495" Bottom="481" />
+										<TypeInfo Item0="{192FD9F1-604F-4562-9E99-FAC7DF27111F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;BLT&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelBlt" Key="{BF3FAB78-75DD-4CD5-AEB5-4EB7A863B064}">
+										<Image FileName="-1845491058" Left="1162" Top="409" Right="1516" Bottom="703" />
+										<TypeInfo Item0="{192FD9F1-604F-4562-9E99-FAC7DF27111F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navNickyDSSammiesSubs" Key="{2B5AF24B-6653-4AA6-8182-12F0A84448C3}">
+										<Image FileName="-37031518" Left="0" Top="151" Right="1901" Bottom="272" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &quot;Nicky D&apos;s Sammies &amp; Subs&quot;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkMenu" Key="{26FEA728-67B7-416E-BB9B-DC6379274D84}">
+										<Image FileName="-37031518" Left="1716" Top="200" Right="1768" Bottom="222" />
+										<TypeInfo Item0="{0E9DF6F4-1A4C-46BB-B82A-9CC62A6E4A53}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Menu&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxName" Key="{5527C215-1DE2-4648-BD7E-9359A8201BEA}">
+										<Image FileName="1708592607" Left="638" Top="793" Right="1290" Bottom="840" />
+										<TypeInfo Item0="{8431AF66-531E-479B-A807-48E3778D5D0C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;name&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxDescription" Key="{6274BF59-91F8-4702-AE0C-EFCC40EDD956}">
+										<Image FileName="-1553607179" Left="638" Top="853" Right="1290" Bottom="900" />
+										<TypeInfo Item0="{8431AF66-531E-479B-A807-48E3778D5D0C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;description&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="numberinputPrice" Key="{8B78FEC8-0258-483F-B04E-0EB4C86CB63C}">
+										<Image FileName="-1110590477" Left="638" Top="912" Right="1290" Bottom="959" />
+										<TypeInfo Item0="{0E9DF6F4-1A4C-46BB-B82A-9CC62A6E4A53}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;price&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;number&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCategory" Key="{BB14B28A-6D66-4EB3-8BAE-B18545723FF5}">
+										<Image FileName="1027242479" Left="638" Top="972" Right="1290" Bottom="1019" />
+										<TypeInfo Item0="{8431AF66-531E-479B-A807-48E3778D5D0C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;category&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAddItem" Key="{5A6CCF6C-2764-4B35-AC90-1D33E158C26A}">
+										<Image FileName="1971387107" Left="638" Top="1031" Right="1263" Bottom="1076" />
+										<TypeInfo Item0="{4A788004-B853-4233-BB3E-1FB42B595CEA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Add Item&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/button[contains(@class, &apos;button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTunaMelt" Key="{700326BF-3703-448A-BB12-C3AAFF14EFD9}">
+										<Image FileName="-527755436" Left="1372" Top="454" Right="1685" Bottom="481" />
+										<TypeInfo Item0="{192FD9F1-604F-4562-9E99-FAC7DF27111F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;Tuna Melt&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelTunaMelt" Key="{017BB3B2-3176-409D-89DA-FE9CECDC8386}">
+										<Image FileName="666262886" Left="1351" Top="409" Right="1705" Bottom="703" />
+										<TypeInfo Item0="{192FD9F1-604F-4562-9E99-FAC7DF27111F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelTurkeyClub" Key="{4987023B-FFAC-4CE2-91C0-A3548A1C0983}">
+										<Image FileName="-1971337731" Left="774" Top="402" Right="1145" Bottom="710" />
+										<TypeInfo Item0="{192FD9F1-604F-4562-9E99-FAC7DF27111F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;menu-item&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTunaMelt2" Key="{846FBF9D-71CB-4CD2-A511-331BABAA89C2}">
+										<Image FileName="978048259" Left="993" Top="454" Right="1306" Bottom="481" />
+										<TypeInfo Item0="{192FD9F1-604F-4562-9E99-FAC7DF27111F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;Tuna Melt&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[2]/h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkHome" Key="{F917BA5C-1965-4DBA-ADD1-15E666AD2182}">
+										<Image FileName="-614272362" Left="1623" Top="200" Right="1679" Bottom="222" />
+										<TypeInfo Item0="{0E9DF6F4-1A4C-46BB-B82A-9CC62A6E4A53}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Home&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelOurMenu" Key="{4C75F7BC-3120-4622-AC6B-F520FE6EDF1D}">
+										<Image FileName="-1692087589" Left="9" Top="281" Right="1910" Bottom="1135" />
+										<TypeInfo Item0="{192FD9F1-604F-4562-9E99-FAC7DF27111F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;menu-container&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDelete" Key="{54968729-971B-42F6-8395-915CDA997A0B}">
+										<Image FileName="-829788117" Left="726" Top="628" Right="797" Bottom="656" />
+										<TypeInfo Item0="{4A788004-B853-4233-BB3E-1FB42B595CEA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/button[contains(@class, &apos;delete-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelGrilledCheese" Key="{84A09C09-546B-44E5-B816-A6BCE33D418D}">
+										<Image FileName="925155410" Left="765" Top="393" Right="1137" Bottom="701" />
+										<TypeInfo Item0="{0E9DF6F4-1A4C-46BB-B82A-9CC62A6E4A53}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{3EC5610D-1CAC-4947-8CCE-5739C99A4D18}">
+								<Image FileName="-37031518" Left="-9" Top="-9" Right="1929" Bottom="1149" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageReactApp2" Key="{DA57A660-412A-49DA-864C-2E5797B3FAAF}">
+								<Image FileName="84983357" Left="0" Top="151" Right="1920" Bottom="1139" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://localhost:3000/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="navNickyDSSammiesSubs" Key="{30EFA3A9-3229-4511-A4C3-2453E48BFC76}">
+										<Image FileName="84983357" Left="0" Top="151" Right="1901" Bottom="272" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &quot;Nicky D&apos;s Sammies &amp; Subs&quot;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkMenu" Key="{C1C3CD2B-E955-4D30-8731-0B6D8317B461}">
+										<Image FileName="84983357" Left="1716" Top="200" Right="1768" Bottom="222" />
+										<TypeInfo Item0="{0E9DF6F4-1A4C-46BB-B82A-9CC62A6E4A53}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Menu&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelWelcomeToNickyDSSammies" Key="{8E5973E7-1D81-4D31-9BC2-813144F91F7E}">
+										<Image FileName="-1096883991" Left="9" Top="281" Right="1910" Bottom="1468" />
+										<TypeInfo Item0="{192FD9F1-604F-4562-9E99-FAC7DF27111F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//div)[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelWelcomeToNickyDSSammies2" Key="{86E9F5F1-813B-4E05-BA61-5697B9BCD0AF}">
+										<Image FileName="-1096883991" Left="9" Top="281" Right="1910" Bottom="1468" />
+										<TypeInfo Item0="{192FD9F1-604F-4562-9E99-FAC7DF27111F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//div)[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkHome" Key="{EF23534F-A237-41BD-B760-40D4374DAEAC}">
+										<Image FileName="2074643959" Left="1623" Top="200" Right="1679" Bottom="222" />
+										<TypeInfo Item0="{0E9DF6F4-1A4C-46BB-B82A-9CC62A6E4A53}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Home&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{5BDCD4C0-AD46-4086-AD8D-0A232236972A}">
+			<Child Name="pageReactApp" Owner="{E19BA9AF-5626-4214-9588-846638FF1C21}">
+				<Child Name="textnodeBlt" Owner="{031DE202-5889-4200-ADC1-D4E38E5CC5B7}" />
+				<Child Name="panelBlt" Owner="{BF3FAB78-75DD-4CD5-AEB5-4EB7A863B064}" />
+				<Child Name="navNickyDSSammiesSubs" Owner="{2B5AF24B-6653-4AA6-8182-12F0A84448C3}">
+					<Child Name="linkMenu" Owner="{26FEA728-67B7-416E-BB9B-DC6379274D84}" />
+					<Child Name="linkHome" Owner="{F917BA5C-1965-4DBA-ADD1-15E666AD2182}" />
+				</Child>
+				<Child Name="textboxName" Owner="{5527C215-1DE2-4648-BD7E-9359A8201BEA}" />
+				<Child Name="textboxDescription" Owner="{6274BF59-91F8-4702-AE0C-EFCC40EDD956}" />
+				<Child Name="numberinputPrice" Owner="{8B78FEC8-0258-483F-B04E-0EB4C86CB63C}" />
+				<Child Name="textboxCategory" Owner="{BB14B28A-6D66-4EB3-8BAE-B18545723FF5}" />
+				<Child Name="buttonAddItem" Owner="{5A6CCF6C-2764-4B35-AC90-1D33E158C26A}" />
+				<Child Name="textnodeTunaMelt" Owner="{700326BF-3703-448A-BB12-C3AAFF14EFD9}" />
+				<Child Name="panelTunaMelt" Owner="{017BB3B2-3176-409D-89DA-FE9CECDC8386}" />
+				<Child Name="panelTurkeyClub" Owner="{4987023B-FFAC-4CE2-91C0-A3548A1C0983}" />
+				<Child Name="textnodeTunaMelt2" Owner="{846FBF9D-71CB-4CD2-A511-331BABAA89C2}" />
+				<Child Name="panelOurMenu" Owner="{4C75F7BC-3120-4622-AC6B-F520FE6EDF1D}" />
+				<Child Name="buttonDelete" Owner="{54968729-971B-42F6-8395-915CDA997A0B}" />
+				<Child Name="panelGrilledCheese" Owner="{84A09C09-546B-44E5-B816-A6BCE33D418D}" />
+			</Child>
+			<Child Name="BrowserWindow" Owner="{3EC5610D-1CAC-4947-8CCE-5739C99A4D18}" />
+			<Child Name="pageReactApp2" Owner="{DA57A660-412A-49DA-864C-2E5797B3FAAF}">
+				<Child Name="navNickyDSSammiesSubs" Owner="{30EFA3A9-3229-4511-A4C3-2453E48BFC76}">
+					<Child Name="linkMenu" Owner="{C1C3CD2B-E955-4D30-8731-0B6D8317B461}" />
+					<Child Name="linkHome" Owner="{EF23534F-A237-41BD-B760-40D4374DAEAC}" />
+				</Child>
+				<Child Name="panelWelcomeToNickyDSSammies" Owner="{8E5973E7-1D81-4D31-9BC2-813144F91F7E}" />
+				<Child Name="panelWelcomeToNickyDSSammies2" Owner="{86E9F5F1-813B-4E05-BA61-5697B9BCD0AF}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

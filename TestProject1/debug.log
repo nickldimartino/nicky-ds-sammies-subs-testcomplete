@@ -1,0 +1,46 @@
+[0328/101804.938:WARNING:chrome_browser_cloud_management_controller.cc(88)] Could not create policy manager as CBCM is not enabled.
+[0328/101805.905:WARNING:dxgi_swap_chain_image_backing.cc(205)] First draw to surface should draw to everything
+[0328/101807.038:WARNING:browser_info.cc(309)] Returning a speculative frame for 25769803782 [6,6]
+[0328/101807.041:WARNING:browser_info.cc(309)] Returning a speculative frame for 25769803782 [6,6]
+[0328/101807.041:WARNING:browser_info.cc(309)] Returning a speculative frame for 25769803782 [6,6]
+[0328/101807.041:WARNING:browser_info.cc(309)] Returning a speculative frame for 25769803782 [6,6]
+[0328/101807.041:WARNING:browser_info.cc(309)] Returning a speculative frame for 25769803782 [6,6]
+[0328/101808.041:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot set properties of null (setting 'textContent')", source: about:blank (1)
+[0328/101808.238:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot set properties of null (setting 'textContent')", source: https://www.googletagmanager.com/static/service_worker/53k0/sw_iframe.html?origin=https%3A%2F%2Fauth.id.smartbear.com (1)
+[0328/101808.344:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot set properties of null (setting 'textContent')", source: https://auth.id.smartbear.com/u/login/identifier?state=hKFo2SBVOWNhTExUSTZNTHRIajBGMVp2d1NuSlZZelB5anlKQaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDdTY1VvbUwwalpGQTFTdkJpZTVlUm1ZM3BoclIwZzNQo2NpZNkgaDk2VVRreDk1YzZjN1I4d2F1dG9hQ1RjRnpvRWl5Vzg (1)
+[0328/101816.172:INFO:CONSOLE(18)] "BSSO Telemetry: {"result":"Error","error":"NoExtension","type":"ChromeSsoTelemetry","data":{},"traces":["BrowserSSO Initialized","Creating ChromeBrowserCore provider","Sending message for method CreateProviderAsync","Received message for method CreateProviderAsync","Error: ChromeBrowserCore error NoExtension: Extension is not installed."]}", source: https://aadcdn.msauth.net/shared/1.0/content/js/BssoInterrupt_Core_9810YxmrLqOR1rQ4anyNMg2.js (18)
+[0328/101817.535:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot set properties of null (setting 'textContent')", source: https://login.microsoftonline.com/adbb47bc-5786-4221-8ab2-2bb782d51a17/saml2?SAMLRequest=fZFLT8MwEIT%2FSpR7HnZexmoiFXqgUhEVDRy4INtxWovELl4H8fNRXKDl0ptXHn07O7MANg5HupzcQT%2FJj0mCC77GQQP1H3U4WU0NAwVUs1ECdYLulg8biuOUHq1xRpghDIIgWAJI65TRd0bDNEq7k%2FZTCfn8tKnDg3NHoEnCJneIVRfDyKzjktlYmDEZzF7pRLBh4Ey8e9p6VYdvPcsQknl3U2JCsKhYyUmHsrLM%2BrTHFTkpASa51uCYdnWIU1xEaRZh0qKcIkJR8eplKwlOaTYbPNvxi%2BNRCWvA9M7oQWnpLbGO87ziIioqUkY5xigijOMIc14R3BWIoSqZI8Kevv1J4lbpTun99dj4SQT0vm230fZx14bBi7TgreE4DZvFTKb%2BMntRx3Us%2By0gbGbZX8Tn1yK54Dan6X%2F3zTc%3D&RelayState=bunkqaA73eWUvMzdUmhwZLpNLH6BNGyo&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=gB0U%2FfTo7qMjS1vbHdKoCPw9LRR%2BQS6uVeaMJDfDBkT5mHzp%2BqPD042fEJCiTmxWypDXjKb6lRqj0Z6wrfmiKapWGHO2JbkB%2FLvQtF66LsRdiQ1G9Q6reZxQbw0K3gpaTiBTjMpfx%2BhXktKEowI7pp8YlZRszhr%2F9y7YNn3rOgjYGcAO6OMhPBJAP8t4aAXTMMZZYEa1gFRhI9X1T19vN8serjfeUMssda7puMqD7ZvvxdS4KQlaaWTde9oYmbEeZ6aXPa765K7GTFffT6Q1Km1wLdn8erfrkUWDaxUmmD0%2FLMaHYYvUL0b0fV9NhwCRmCE6BMCyuxLejqHOgxkd1Q%3D%3D&sso_reload=true (1)
+[0328/101817.569:INFO:CONSOLE(5)] "JQMIGRATE: Migrate is installed, version 3.3.2", source: https://aadcdn.msftauth.net/ests/2.1/content/cdnbundles/watsonsupportwithjquery.3.5.min_dc940oomzau4rsu8qesnvg2.js (5)
+[0328/101817.570:INFO:CONSOLE(8)] "JQMIGRATE: Migrate is installed, version 1.4.1", source: https://aadcdn.msftauth.net/ests/2.1/content/cdnbundles/watsonsupportwithjquery.3.5.min_dc940oomzau4rsu8qesnvg2.js (8)
+[0328/101834.150:INFO:CONSOLE(45)] "Script error.", source: https://smartbear.okta.com/app/office365/exki0tusj3Iumz5YN696/sso/wsfed/passive?client-request-id=8da586a6-3557-48da-a8e9-651ec9b9315b&wa=wsignin1.0&wtrealm=urn%3afederation%3aMicrosoftOnline&wctx=LoginOptions%3D3%26estsredirect%3d2%26estsrequest%3drQQIABABBAABBgIAAAADAOz_BQD0_5awdoqWvUGT8xxbW6OWatNk35trELye1KKfAcI3ZYdsaRDiv-HT7-eFQpeKDdIQsLF73krS7LarGzI-kx-ze1n4tGCTTotpeYWLVd8aOkseF0tXUoBhq-t6OoAtKtyw43g7kSCvYzSGKSun46Q-dgdwbsZT0GvEHmmwwsQ-1pXyz9JOSDS1yW0nJWE_dqSh3L44SSzbPWJbGfOzYBJGQUOcG7AEjb5t55lcuvUEnYOqVG3rag1YXJhiAA8gb0YPIVYwyDdD2NO4HLWiRce9NY2ACQAdtMy7OVH-NYBmnJvzS4IMIXpKekowV6u9F5fRMVz9w3cP_45ECr-nXv7QhY7TGxu-WuboM0lJWueeheeVIClcCILMH4U2jMtfq80_gjx-noI1TdJqWsEAo2SpQTaSent7fSR418xQ4iQdFd7Yncm8fPf0EVvukNv4gx52_0m1ePGcyFUGqRiLUHESgN17hP_ADYCkuozI7W4YWUAYkx1TpyADQ7mWimyG9gB22uVmU3bOYHtCeZucsu-au24gzRF4X5NlJw_Yy4DcG3La_GE4xw04LTfwAXSBD0-8sABtWXAx0H2Stg0OTt1VhI33l5xy0&cbcxt=&username=nicholas.dimartino%40smartbear.com&mkt=&lc= (45)
+[0328/101905.531:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot set properties of null (setting 'textContent')", source: https://login.microsoftonline.com/login.srf (1)
+[0328/101905.544:INFO:CONSOLE(5)] "JQMIGRATE: Migrate is installed, version 3.3.2", source: https://aadcdn.msftauth.net/ests/2.1/content/cdnbundles/watsonsupportwithjquery.3.5.min_dc940oomzau4rsu8qesnvg2.js (5)
+[0328/101905.545:INFO:CONSOLE(8)] "JQMIGRATE: Migrate is installed, version 1.4.1", source: https://aadcdn.msftauth.net/ests/2.1/content/cdnbundles/watsonsupportwithjquery.3.5.min_dc940oomzau4rsu8qesnvg2.js (8)
+[0328/101909.174:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot set properties of null (setting 'textContent')", source: https://login.microsoftonline.com/kmsi (1)
+[0328/101912.845:WARNING:browser_info.cc(309)] Returning a speculative frame for 51539607558 [12,6]
+[0328/101913.031:WARNING:browser_info.cc(309)] Returning a speculative frame for 51539607558 [12,6]
+[0328/101913.031:WARNING:browser_info.cc(309)] Returning a speculative frame for 51539607558 [12,6]
+[0328/101913.031:WARNING:browser_info.cc(309)] Returning a speculative frame for 51539607558 [12,6]
+[0328/101913.031:WARNING:browser_info.cc(309)] Returning a speculative frame for 51539607558 [12,6]
+[0328/101913.477:WARNING:browser_info.cc(309)] Returning a speculative frame for 55834574855 [13,7]
+[0328/101913.562:WARNING:browser_info.cc(309)] Returning a speculative frame for 55834574855 [13,7]
+[0328/101913.563:WARNING:browser_info.cc(309)] Returning a speculative frame for 55834574855 [13,7]
+[0328/101913.563:WARNING:browser_info.cc(309)] Returning a speculative frame for 55834574855 [13,7]
+[0328/101913.563:WARNING:browser_info.cc(309)] Returning a speculative frame for 55834574855 [13,7]
+[0328/101913.563:WARNING:browser_info.cc(309)] Returning a speculative frame for 55834574858 [13,10]
+[0328/101913.564:WARNING:browser_info.cc(309)] Returning a speculative frame for 55834574858 [13,10]
+[0328/101913.564:WARNING:browser_info.cc(309)] Returning a speculative frame for 55834574858 [13,10]
+[0328/101913.564:WARNING:browser_info.cc(309)] Returning a speculative frame for 55834574858 [13,10]
+[0328/101913.773:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot set properties of null (setting 'textContent')", source: about:blank (1)
+[0328/101914.026:WARNING:browser_info.cc(309)] Returning a speculative frame for 68719476745 [16,9]
+[0328/101914.056:WARNING:browser_info.cc(309)] Returning a speculative frame for 68719476745 [16,9]
+[0328/101914.056:WARNING:browser_info.cc(309)] Returning a speculative frame for 68719476745 [16,9]
+[0328/101914.056:WARNING:browser_info.cc(309)] Returning a speculative frame for 68719476745 [16,9]
+[0328/101914.056:WARNING:browser_info.cc(309)] Returning a speculative frame for 68719476745 [16,9]
+[0328/101914.059:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'ch-ua-form-factors'.", source:  (0)
+[0328/101914.104:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot set properties of null (setting 'textContent')", source: https://app.visualtest.io/onboarding (1)
+[0328/101914.121:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot set properties of null (setting 'textContent')", source: https://js.chargebee.com/assets/cbjs-2025.03.24-11.46/v2/master.html?site=visualtest-dev&env=production (1)
+[0328/101915.628:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot set properties of null (setting 'textContent')", source: https://newassets.hcaptcha.com/captcha/v1/c1e11bfffe54019b36ca486d59d75ea65128f510/static/hcaptcha.html (1)
+[0328/101915.650:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot set properties of null (setting 'textContent')", source: https://newassets.hcaptcha.com/captcha/v1/c1e11bfffe54019b36ca486d59d75ea65128f510/static/hcaptcha.html (1)
+[0328/101915.709:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot set properties of null (setting 'textContent')", source: https://www.youtube.com/embed/sXsifqUUv1w (1)
+[0328/102120.215:WARNING:dxgi_swap_chain_image_backing.cc(205)] First draw to surface should draw to everything
