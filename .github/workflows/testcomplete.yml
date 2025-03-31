@@ -1,0 +1,26 @@
+name: Run TestComplete Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  run-tests:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up TestComplete/TestExecute
+      run: |
+        # Ensure TestExecute or TestComplete is installed on the runner
+        # This assumes it's already available or pre-installed on a custom runner
+        echo "Verifying TestExecute installation..."
+        TestComplete.exe /?
+
+    - name: Run TestComplete Project
+      run: |
+        TestExecute.exe "C:\Users\nicholas.dimartino\AppData\Local\Jenkins\.jenkins\workspace\QMetry - Nicky Ds Sammies and Subs Integrations\ProjectSuite1" /run /exit /SilentMode /ErrorLog
