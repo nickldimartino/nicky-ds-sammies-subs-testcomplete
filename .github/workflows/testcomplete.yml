@@ -21,6 +21,7 @@ jobs:
         echo "Verifying TestExecute installation..."
         TestComplete.exe /?
 
-    - name: Run TestComplete Project
-      run: |
-        TestExecute.exe "C:\Users\nicholas.dimartino\AppData\Local\Jenkins\.jenkins\workspace\QMetry - Nicky Ds Sammies and Subs Integrations\ProjectSuite1" /run /exit /SilentMode /ErrorLog
+        - name: Run TestComplete Project
+          run: |
+            "C:\Program Files (x86)\SmartBear\TestComplete 15\Bin\TestComplete.exe" ^
+              "C:\Users\nicholas.dimartino\AppData\Local\Jenkins\.jenkins\workspace\QMetry - Nicky Ds Sammies and Subs Integrations\ProjectSuite1" /run /exit /SilentMode /ErrorLog
